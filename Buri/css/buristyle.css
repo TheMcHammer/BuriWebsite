@@ -5,7 +5,7 @@
 	body{
 		overflow-x: hidden;
 		font-family: 'Open Sans', sans-serif;
-		text-rendering: optimizeLegibility !important;
+		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
 	}
 	li {
@@ -19,14 +19,14 @@
 	.navbar{
 		margin-bottom: 0;
 		border-radius: 0;
-		/*background-color: #5E4485;
-		color: FFF;*/
+		background-color: #8B0000;
+		color: #00008B;
 		padding: 1% 0;
 		font-size: 1.2em;
 		border: 0;
 	}
 	.navbar-text{
-		
+		color: #00008B;
 	}
 	.navbar-brand{
 		float: left;
@@ -77,7 +77,7 @@
 		
 	}
 	#logo {
-		max-width: 100px;
+		max-width: 75px;
 		margin: 1% auto;
 	}
 	
@@ -86,23 +86,24 @@
 		/*background: url("images/buri.jpg");*/
 		background-size: 100%;
 		background-repeat: no-repeat;
-		background-color: #FFFFFF;
+		background-color: #000000;
+		color: #FFFFFF;
 	}
 	
 	footer{
 		width: 100%;
-		background-color: #000000;
-		color: #FFF;
+		background-color: #8B0000;
+		color: #00008B;
 		padding: 1%;
 	}
 	.footer{
 		width: 100%;
 		padding: 1%;
-		margin-top: -150px; /* negative value of footer height */
-		height: 150px;
-		background-color: #000000;
+		margin-top: -50px; /* negative value of footer height */
+		height: 120px;
+		background-color: #8B0000;
 		clear:both;
-		color:#fff;
+		color:#FFFFFF;
 	}	
 	.fa{
 		padding: 15px;
